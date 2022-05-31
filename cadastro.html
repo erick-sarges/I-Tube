@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,63 @@
     <link rel="icon" href="./assets/icons8-reproduzir-youtube-40.png" type="image/png">
     <link rel="stylesheet" href="./CSS/cadastro.css" type="text/css">
 
-    <title>CADASTRO</title>
+    <title>Cadastro</title>
 
 
 </head>
+
 <body>
-    
+
+    <div class="conteiner">
+
+        <form method="GET" action="">
+            <label for="username">Nome:</label>
+            <input type="text" nome="username" placeholder="Seu Nome" id="username"><br>
+
+            <label for="email">Email</label>
+            <input type="email" nome="email" placeholder="Email" id="email"><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" name="password" placeholder="Senha" id="senha"><br>
+
+            <label for="confirmar-senha">Confirmar-Senha</label>
+            <input type="text" name="confirm-password" placeholder="Confirmar Senha" id="confirmar-senha"><br>
+
+            <label for="place"> Estado</label><br>
+            <select name="Place" id="place">
+                <option value="" selected hidden disabled>Estado</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="PA">Pará</option>
+                <option value="BA">Bahia</option>
+                <option value="BH">Belo Horizonte</option>
+                <option value="ES">Espirito Santos</option>
+
+            </select>
+            <br>
+
+            <input type="radio" name="gender" value="M" checked>Masculino
+            <input type="radio" name="gender" value="F">Feminino
+            <input type="radio" name="gender" value="O">Outros
+            <br>
+
+            <input type="radio" name="estado-civil" value="C">Casado
+            <input type="radio" name="estado-civil" value="S">Solteiro
+            <br>
+            <input type="checkbox" name="Interesses" value="H">Homens
+            <input type="checkbox" name="Interesses" value="M">Mulheres
+            <input type="checkbox" name="Interesses" value="A">Aliens
+            <br>
+            <input type="reset" value="Apagar">
+            <input type="submit" value="Concluir">
+
+
+
+
+        </form>
+
+    </div>
+
 </body>
+
 </html>
