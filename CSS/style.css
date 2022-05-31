@@ -20,7 +20,8 @@ body{
     font-family: Itim;
     src: url(../Fonts/Itim-Regular.ttf);
 }
-
+        /* STYLE DO HEADER */
+     /* ------------------------------------------------ */
 header{
 width: 100%; 
 background-color: #202122;
@@ -165,6 +166,10 @@ input[type="text"]:hover{
 #perfil{
     transform: translateY(10px);
 }
+  
+      /* FINAL DO HEADER */
+/* <------------------------------------------> */
 
+                /* STYLE DA SECTION */
 
 
