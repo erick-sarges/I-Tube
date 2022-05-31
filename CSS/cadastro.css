@@ -1,0 +1,33 @@
+body{
+    background-color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: blue;
+    padding: 50px;
+    
+}
+
+input, select{
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    
+    
+}
+
+select{
+    background-image: url(../assets/icon-mão-para-baixo.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px);
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none
+
+}
+
