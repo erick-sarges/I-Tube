@@ -9,6 +9,7 @@
 <p align="center">
   <b>Sobre o Projeto | Tecnologias</b>
 </p>
+
 ## :clipboard: Sobre o Projeto
 Esse projeto é uma cópia minimalista do YouTube.
 Através dela você consegue pesquisar qualquer vídeo que tenha na plaforma original.
