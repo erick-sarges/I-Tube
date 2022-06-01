@@ -133,6 +133,8 @@ span{
 
 textarea{
     resize: none;
+    width: 200px;
+    height: 100px;
     border: none;
     border-radius: 10px;
     margin-top: 13px;
@@ -295,7 +297,7 @@ input[type="checkbox"]{
 }
 b{
     color: #ff0000;
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     right: 30px;
 }
@@ -313,7 +315,8 @@ span{
 
 textarea{
     resize: none;
-    transform: translate(-10px);
+    width: 200px;
+    height: 100px;
     border: none;
     border-radius: 10px;
     margin-top: 15px;
@@ -335,7 +338,7 @@ input[type="submit"]{
 
     padding: 5px;
     font-size: 13px;
-    transform: translate(-10px);
+    transform: translate(10px);
 }
         
 
