@@ -1,0 +1,305 @@
+@media screen and (max-width: 1160px){
+
+
+    
+
+  header{
+    width: 100%; 
+    background-color: #202122;
+    padding: 20px;
+    padding-top: 30px;
+    height: 10px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    position: sticky;
+    z-index: 5;
+    
+    }
+    #list{
+    
+        transform: translate(-15px, -27px);
+        width: 15px;
+
+    
+    
+    
+    
+    }
+    
+    img{
+    
+        transform: translate(-17px,-22px);
+        width: 25px;
+    }
+    span, sup{
+    
+        
+        position: relative;
+        bottom: 30px;
+        right: 20px;
+        font-weight: bold;
+        font-size: 14px;
+        
+    }
+   
+    sup{
+        font-size:6px;
+        position: relative;
+        font-weight: 10;
+        bottom: 30px;
+        left: -20px;
+        
+        
+    }
+    
+    
+    form{
+        width: 40%;
+        position: absolute;
+        left: 41%;
+        top: 12px;
+        z-index: 1;
+       
+        
+    
+    }
+    
+    input[type="submit"]{
+        position: absolute;
+        transform: translate(-54px, -3px);
+        padding: 5.3px;
+        width: 40px;
+        background-color:#474747;
+        color: white;
+        font-family: Itim;
+        font-size: 15px;
+        border: none;
+        background-image: url(../assets/icons8-pesquisar-20.png);
+        background-repeat: no-repeat;
+        background-position: calc(50%);
+        
+        
+    
+    }
+    
+    input[type="text"]{
+        transform: translate(-50px, -4px);
+        width: 50%;
+        padding: 5px;
+        border: none;
+        background-color: black;
+        color: white;
+        outline-style: solid;
+        outline-width: 2px;
+        outline-color: #474747;
+    
+    
+        
+        
+    }
+    input[type="text"]:hover{
+    
+        background-image: url(../assets/icons8-pesquisar-20.png);
+        background-repeat: no-repeat;
+        background-position: calc(75%);
+        padding-left: 1px;
+        outline-style: solid;
+        outline-color: #0000FF;
+        outline-width: 2px;
+    
+    }
+    
+    .keyboard{
+        position: absolute;
+        transform: translate(-70px, 5px);
+        width: 13px;
+    
+    }
+    
+    
+    
+    
+    #micro{
+    
+        transform: translate(-10px, 3px);
+        background-color: black;
+        border-radius: 50%;
+        width: 20px;
+        
+        
+    }
+    
+    #pontos{
+        position: absolute;
+        top: 37px;
+        right: 22%;
+        width: 16px;
+       
+    }
+    
+    #login{
+    
+        
+        border-radius: 2px;
+        color: #3c3cf7;
+        border: solid 1px #2f2fd6;
+        padding: 5px;
+        height: 30px;
+        width: 19%;
+        position: absolute;
+        right: 1%;
+        top: 3px;
+        /* transform: translate(10px, -23px); */
+    
+        
+    }
+    .content{
+        transform: translateY(-10px);
+        text-align: center;
+        font-size: 9px;
+        /* transform: translate(15px, -10px); */
+    }
+    #perfil{
+        transform: translate(2px, 5px);
+        width: 25px;
+        margin-bottom: 5px;
+        
+    }
+      
+          /* FINAL DO HEADER */
+    /* <------------------------------------------> */
+    
+                    /* STYLE DA SECTION */
+    
+    
+    section{
+    
+        padding:20px ;
+        padding-top: 50px;
+        text-align: center;
+        width: 55%;
+        margin: auto;
+        position: relative;
+        padding-bottom: 50px;
+        
+        
+    }
+    video{
+    
+        box-shadow: 0px 2px 50px #ff4242;
+        border-radius: 5px;
+        
+        
+    }
+    
+    h3,p{
+        text-align: left;
+        transform: translate(10px, -5px);
+        font-size: 14px;
+        
+        
+        
+    }
+    p{
+        color: gray;
+    }
+    .icons{
+    
+        transform: translate(-40px, 20px);
+        
+    
+        
+    }
+    .icons img{
+        transform: translate(10px, 5px);
+        margin-right: -5px;
+        width: 18px;
+    }
+    .b{
+    
+        padding: 15px;
+        font-size: 9px;
+    }
+    #compartilhar{
+        transform: translate(140px, -22px);
+    }
+    
+    footer{
+        width: 40%;
+        margin: auto;
+        padding: 70px;
+        position: relative;
+        bottom: 50px;
+        
+    }
+    #logo{
+        transform: translate(-60px, 20px);
+        border-radius: 50%;
+        padding-right: 20px;
+        
+        
+    }
+    
+    .name{
+        position: relative;
+        top: 10px;
+        right: 70px;
+        font-size: 13px;
+    }
+    .music{
+        top: 30px;
+        right: 55px;
+        width: 15px;
+    }
+    .inscritos{
+        font-weight: 100;
+        color: gray;
+        font-size: 11px;
+        position: relative;
+        left: -30px;
+        top: 10px;
+    
+    }
+    .inscrever{
+        background-color: #ff0000;
+        padding: 5px;
+        padding-bottom: 1px;
+        border-radius: 2px;
+        position: absolute;
+        right: 1px;
+        height: 20px;
+        font-size: 12px;
+        width: fit-content;
+        bottom: 120px;
+        
+    
+    }
+    #final-page{
+        position: relative;
+        top: 40px;
+        left: -50px;
+        font-size: 12px;
+
+    }
+    
+    .final{
+    
+        font-family: Arial, Helvetica, sans-serif;
+
+        font-size: 12px;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 17px;
+        color: #808080;
+    }
+    
+                /* final do footer */
+            /* <---------------------------------------> */
+    
+    .marcadagua{
+        padding: 10px;
+        text-shadow: 1px 0px  #ffff;
+        text-decoration: underline;
+    }    
+
+}
