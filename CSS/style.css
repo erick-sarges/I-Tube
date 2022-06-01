@@ -208,23 +208,29 @@ h3,p{
 }
 p{
     color: gray;
+
+    
 }
+
 .icons{
 
     transform: translate(100px);
+
 
     
 }
 .icons img{
     transform: translate(10px, 5px);
     margin-right: 1px;
-    
 }
+
+
 .b{
 
-    padding: 15px;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 14px;
 }
+
 
 footer{
     width: 50%;
@@ -291,9 +297,14 @@ footer{
         /* <---------------------------------------> */
 
 .marcadagua{
+    position: absolute;
     padding: 10px;
     text-shadow: 1px 0px #ffff;
     text-decoration: underline;
+    bottom: 0px;
+    left: 120px;
+
+    
 }
 
 /* ------------------------------------------------ */
