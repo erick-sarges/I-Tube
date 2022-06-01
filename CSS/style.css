@@ -218,6 +218,7 @@ p{
 .icons img{
     transform: translate(10px, 5px);
     margin-right: 1px;
+    
 }
 .b{
 
@@ -291,7 +292,7 @@ footer{
 
 .marcadagua{
     padding: 10px;
-    text-shadow: 1px 1px #ff0000;
+    text-shadow: 1px 0px #ffff;
     text-decoration: underline;
 }
 
