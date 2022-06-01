@@ -5,21 +5,76 @@ body{
 }
 
 .conteiner{
-    width: 40%;
+    width: fit-content;
+    position: relative;
+    top: 100px;
     margin: auto;
     text-align: center;
-    background-color: blue;
+    background-color: #ff5050;
     padding: 50px;
+    padding-top: 20px;
+    padding-right: 53px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 200px #ffffff;
     
+}
+
+h2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    padding-left: 33px;
+
 }
 
 input, select{
     border: none;
     padding: 10px;
     margin-top: 5px;
+    margin-left: 30px;
+    font-family: Itim;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+  
     
     
 }
+
+
+#username,#email{
+
+    width: 70%;
+    box-sizing: border-box;
+    text-align: center;
+    transform: translate(-21px);
+    
+    
+}   
+
+#senha{
+    transform: translate(-21px);
+    text-align: center;
+}
+#confirmar-senha{
+
+    box-sizing: border-box;
+    text-align: center;
+    transform: translate(-60px);
+    margin-bottom: 20px;
+
+}
+#place{
+
+    color: #000000;
+    width: 200px;
+}
+.estado{
+    position: relative;
+    left: 10px;
+    
+}
+
 
 select{
     background-image: url(../assets/icon-mão-para-baixo.png);
@@ -30,4 +85,65 @@ select{
     -webkit-appearance: none
 
 }
+
+
+
+label{
+    font-weight: bold;
+    color: #ffffff;
+    
+    
+}
+.confirmar-senha{
+    position: relative;
+    right: 36px;
+
+}
+
+input[type="radio"]{
+
+    margin-top: 30px;
+    
+    
+
+
+}
+input[type="checkbox"]{
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+
+}
+b{
+    color: black;
+}
+
+span{
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 8px;
+    
+}
+
+
+textarea{
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 13px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type="reset"]{
+    transform: translate(-40px);
+}
+
+
+
 
