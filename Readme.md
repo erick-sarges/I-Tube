@@ -1,10 +1,18 @@
 ><h1>Interface do YouTube</h1>
 
-![](./images/Projeto.png)
+![](./images/img-projeto.png)
+
+
 
 <h2 align="center">
   Acesse a Interface do YouTube Clicando <a target="_blank" href="https://erick-sarges.github.io/I-Tube/">AQUI</a>!
 </h2>
+
+<h3 align="center">Versao Mobile</h3>
+
+> <b align="center"> Melhor responsividade para </b>
+
+![](./images/img-projeto-ios.png)
 
 <p align="center">
   <b>Sobre o Projeto | Tecnologias</b>
