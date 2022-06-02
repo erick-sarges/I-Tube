@@ -302,7 +302,8 @@
             /* <---------------------------------------> */
     
     .marcadagua{
-        padding: 10px;
+        bottom: 0px;
+        right: 100px;
         text-shadow: 1px 0px  #ffff;
         text-decoration: underline;
     }    
